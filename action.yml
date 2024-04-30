@@ -12,6 +12,10 @@ inputs:
     description: 'The prefix for variables.'
     required: false
     default: ''
+  sensitiveKeys:
+    description: 'The keys that should be treated as sensitive.'
+    required: false
+    default: ''
 runs:
   using: 'node20'
   main: 'dist/index.js'
